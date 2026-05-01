@@ -13,7 +13,6 @@ const { title = "Tom’s Lab" } = Astro.props;
   <body>
     <header class="site-header">
       <a class="site-title" href="/">Tom’s Lab</a>
-      <p class="site-subtitle">A Markdown-native writing experiment</p>
 
       <nav>
         <a href="/">Home</a>
@@ -24,64 +23,159 @@ const { title = "Tom’s Lab" } = Astro.props;
     <main>
       <slot />
     </main>
+
+    <footer>
+      <p>Tom’s Lab. A Markdown-native writing experiment.</p>
+    </footer>
   </body>
 </html>
 
 <style>
+  :root {
+    --bg: #f3efe3;
+    --text: #1f1f1d;
+    --muted: #6e6a61;
+    --line: #d8d1c2;
+    --card: #fbf8ef;
+    --link: #1f1f1d;
+  }
+
   body {
     margin: 0;
-    font-family: Georgia, "Times New Roman", serif;
-    color: #222;
-    background: #fff;
+    background: var(--bg);
+    color: var(--text);
+    font-family:
+      ui-serif,
+      Georgia,
+      Cambria,
+      "Times New Roman",
+      Times,
+      serif;
   }
 
   .site-header {
-    max-width: 760px;
-    margin: 56px auto 48px;
-    padding: 0 24px;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 28px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--line);
   }
 
   .site-title {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #222;
+    color: var(--text);
+    font-size: 1.05rem;
+    font-weight: 600;
     text-decoration: none;
-  }
-
-  .site-subtitle {
-    margin-top: 8px;
-    color: #666;
-  }
-
-  nav {
-    margin-top: 24px;
+    letter-spacing: -0.01em;
   }
 
   nav a {
-    margin-right: 20px;
-    color: #0066cc;
+    color: var(--muted);
     text-decoration: none;
+    margin-left: 24px;
+    font-size: 0.95rem;
   }
 
   nav a:hover {
-    text-decoration: underline;
+    color: var(--text);
   }
 
   main {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 72px 28px 96px;
+  }
+
+  .hero {
     max-width: 760px;
-    margin: 0 auto 80px;
-    padding: 0 24px;
+    margin-bottom: 88px;
+  }
+
+  .eyebrow {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin-bottom: 20px;
   }
 
   h1 {
-    font-size: 2.4rem;
-    line-height: 1.2;
-    margin-bottom: 24px;
+    font-size: clamp(3rem, 8vw, 6.8rem);
+    line-height: 0.95;
+    letter-spacing: -0.06em;
+    margin: 0 0 28px;
+    font-weight: 500;
+  }
+
+  .intro {
+    max-width: 620px;
+    color: var(--muted);
+    font-size: 1.35rem;
+    line-height: 1.55;
+    margin: 0;
   }
 
   h2 {
-    font-size: 1.6rem;
-    margin-top: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--muted);
+    margin: 0 0 18px;
+  }
+
+  .essay-list {
+    border-top: 1px solid var(--line);
+    padding-top: 28px;
+  }
+
+  .essay-card {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 8px 28px;
+    padding: 28px 0;
+    border-top: 1px solid var(--line);
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  .essay-card:first-of-type {
+    border-top: none;
+  }
+
+  .essay-meta {
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+
+  .essay-title {
+    font-size: 1.7rem;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+  }
+
+  .essay-desc {
+    grid-column: 2;
+    color: var(--muted);
+    font-size: 1.05rem;
+    line-height: 1.55;
+    max-width: 620px;
+  }
+
+  .essay-card:hover .essay-title {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
+  footer {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 32px 28px 48px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  footer p {
+    margin: 0;
   }
 
   p {
@@ -89,12 +183,40 @@ const { title = "Tom’s Lab" } = Astro.props;
     line-height: 1.8;
   }
 
-  li {
-    font-size: 1.1rem;
-    line-height: 1.8;
-  }
+  @media (max-width: 640px) {
+    .site-header {
+      display: block;
+    }
 
-  a {
-    color: #0066cc;
+    nav {
+      margin-top: 18px;
+    }
+
+    nav a {
+      margin-left: 0;
+      margin-right: 18px;
+    }
+
+    main {
+      padding-top: 56px;
+    }
+
+    .essay-card {
+      display: block;
+    }
+
+    .essay-meta,
+    .essay-title,
+    .essay-desc {
+      display: block;
+    }
+
+    .essay-title {
+      margin-top: 10px;
+    }
+
+    .essay-desc {
+      margin-top: 10px;
+    }
   }
 </style>

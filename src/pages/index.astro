@@ -3,11 +3,23 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Home | Tom’s Lab">
-  <h1>A small experiment in Markdown-native publishing</h1>
-  <p>A Markdown-native writing experiment.</p>
+  <section class="hero">
+    <p class="eyebrow">Markdown publishing experiment</p>
+    <h1>Tom’s Lab</h1>
+    <p class="intro">
+      A small space for testing a Markdown-native, Git-based writing flow.
+    </p>
+  </section>
 
-  <h2>Essays</h2>
-  <ul>
-    <li><a href="/first-essay">My First Astro Essay</a></li>
-  </ul>
+  <section class="essay-list">
+    <h2>Essays</h2>
+
+    <a class="essay-card" href="/first-essay">
+      <span class="essay-meta">May 1, 2026</span>
+      <span class="essay-title">My First Astro Essay</span>
+      <span class="essay-desc">
+        A first test of writing in Markdown and publishing through Astro.
+      </span>
+    </a>
+  </section>
 </Layout>
