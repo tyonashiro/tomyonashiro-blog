@@ -158,10 +158,11 @@ const { title = "Tom’s Lab" } = Astro.props;
   }
 
   a,
+  a:link,
   a:visited,
   a:hover,
   a:active {
-    color: var(--text);
+    color: var(--text) !important;
     text-decoration: underline;
     text-underline-offset: 3px;
   }
