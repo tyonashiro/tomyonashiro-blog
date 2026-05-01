@@ -6,7 +6,7 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>{Astro.props.title ?? "Tom’s Astro Lab"}</title>
 	</head>
 	<body>
 		<slot />
@@ -16,8 +16,8 @@
 <style>
 	html,
 	body {
-		margin: 0;
-		width: 100%;
+		margin: 40px;
+		width: auto;
 		height: 100%;
 	}
 </style>

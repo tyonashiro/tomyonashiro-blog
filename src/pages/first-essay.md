@@ -1,5 +1,6 @@
 
 ---
+layout: ../layouts/Layout.astro
 title: "My First Astro Essay"
 date: 2026-05-01
 ---
