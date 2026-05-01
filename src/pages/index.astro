@@ -1,14 +1,13 @@
 ---
-const posts = [
-  { title: "My First Astro Essay", url: "/first-essay" }
-];
+import Layout from '../layouts/Layout.astro';
 ---
 
-<h1>Tom’s Lab</h1>
-<p>A Markdown-native writing experiment</p>
+<Layout title="Home | Tom’s Lab">
+  <h1>Tom’s Lab</h1>
+  <p>A Markdown-native writing experiment.</p>
 
-<ul>
-  {posts.map(post => (
-    <li><a href={post.url}>{post.title}</a></li>
-  ))}
-</ul>
+  <h2>Essays</h2>
+  <ul>
+    <li><a href="/first-essay">My First Astro Essay</a></li>
+  </ul>
+</Layout>
