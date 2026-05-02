@@ -1,6 +1,5 @@
 ---
-layout: ../layouts/Layout.astro
-title: "My First Astro Essay | Tom’s Lab"
+title: "My First Astro Essay"
 date: 2026-05-01
 ---
 

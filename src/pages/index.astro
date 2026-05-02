@@ -1,11 +1,15 @@
 ---
+import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
+
+const essays = await getCollection('essays');
+essays.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 ---
 
-<Layout title="Home | Tom’s Lab">
+<Layout title="Home | Tom's Lab">
   <section class="hero">
     <p class="eyebrow">Markdown publishing experiment</p>
-    <h1>Tom’s Lab</h1>
+    <h1>Tom's Lab</h1>
     <p class="intro">
       A small space for testing a Markdown-native, Git-based writing flow.
     </p>
@@ -14,8 +18,10 @@ import Layout from '../layouts/Layout.astro';
   <section class="essay-list">
     <h2>Essays</h2>
 
-    <a class="essay-card" href="/first-essay">
-    <span class="essay-title">My First Astro Essay</span>
-  </a>
+    {essays.map((essay) => (
+      <a class="essay-card" href={`/essays/${essay.id}`}>
+        <span class="essay-title">{essay.data.title}</span>
+      </a>
+    ))}
   </section>
 </Layout>
