@@ -20,6 +20,7 @@ essays.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 
     {essays.map((essay) => (
       <a class="essay-card" href={`/essays/${essay.id}`}>
+        <span class="essay-date">{essay.data.date.toISOString().slice(0, 10)}</span>
         <span class="essay-title">{essay.data.title}</span>
       </a>
     ))}
