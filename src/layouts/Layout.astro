@@ -118,10 +118,15 @@ const { title = "Tom’s Lab" } = Astro.props;
     padding-top: 28px;
   }
 
-  .essay-card {
+  .essay-card,
+  .essay-card:link,
+  .essay-card:visited,
+  .essay-card:hover,
+  .essay-card:active {
     display: block;
     padding: 28px 0;
     border-top: 1px solid var(--line);
+    text-decoration: none;
   }
 
   .essay-card:first-of-type {
@@ -132,6 +137,9 @@ const { title = "Tom’s Lab" } = Astro.props;
     font-size: 1.7rem;
     line-height: 1.2;
     letter-spacing: -0.03em;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    color: var(--text);
   }
 
   footer {
