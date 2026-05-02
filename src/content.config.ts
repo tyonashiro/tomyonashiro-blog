@@ -9,4 +9,8 @@ const essays = defineCollection({
   }),
 });
 
-export const collections = { essays };
+const about = defineCollection({
+  loader: glob({ pattern: 'index.md', base: './src/content/about' }),
+});
+
+export const collections = { essays, about };

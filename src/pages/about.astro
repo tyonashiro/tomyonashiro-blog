@@ -1,0 +1,14 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+
+const aboutEntries = await getCollection('about');
+const entry = aboutEntries[0];
+const { Content } = await render(entry);
+---
+
+<Layout title="About | Tom's Lab">
+  <article>
+    <Content />
+  </article>
+</Layout>
