@@ -7,6 +7,8 @@ date: 2026-05-02
 
 ![](nahrizul-kadri-OAsF0QMRWlA-unsplash.jpg)
 
+2026-05-02
+
 When Anthropic announced Claude Code Security and disclosed that Claude Opus 4.6 had uncovered more than 500 previously unknown vulnerabilities in production open-source codebases, the number was striking enough on its own. But what made it more striking was the kind of bugs they were. Not surface-level oversights. Not the bugs that get caught in the first hour of a code review. These were defects that had survived years, sometimes decades, of expert scrutiny in widely used systems.
 
 For anyone watching the publishing and journalism industries over the past three years, the news landed with an oddly familiar weight. The same kind of headline, in a different vocabulary, has been arriving again and again. AI now drafts long-form articles, edits manuscripts, translates technical documents, and writes code that runs in production. Two professions that look almost nothing alike on the surface, vulnerability research and writing, are facing the same reckoning at roughly the same time. That coincidence is worth taking seriously, because the lessons from one side can sharpen our understanding of the other.

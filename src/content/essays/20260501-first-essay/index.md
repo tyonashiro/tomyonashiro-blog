@@ -7,6 +7,8 @@ date: 2026-05-01
 
 ![](katrin-hauf-jpkvklXwt98-unsplash.jpg)
 
+2026-05-01
+
 This is my first essay written in Markdown and published via Astro.
 
 This already feels different from WordPress.
