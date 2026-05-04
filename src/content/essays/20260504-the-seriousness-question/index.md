@@ -6,6 +6,8 @@ date: 2026-05-04
 # The Seriousness Question
 ### Reading Palantir's Manifesto Through Kierkegaard, Heidegger, and the Postwar Japanese Mind
 
+2026-05-04
+
 ![](brett-jordan-aW0-dq6Dz5Y-unsplash.jpg)
 
 ## An Unusual Document

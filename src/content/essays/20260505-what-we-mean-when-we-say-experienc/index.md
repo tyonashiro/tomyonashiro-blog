@@ -1,18 +1,11 @@
 ---
 title: 'What We Mean When We Say "Experience"'
-description: The "experience gap" framing in education and child welfare claims to address inequality, but the experiences it counts as enriching track upper-middle-class childhoods. What looks like the dismantling of a hierarchy is closer to its rebranding, and the children most affected are taught to see their own lives as deficient by a measure they did not choose.
 date: 2026-05-05
-tags:
-  - education
-  - inequality
-  - class
-  - cultural-capital
-  - Bourdieu
-  - childhood
-  - philosophy
 ---
 
 # What We Mean When We Say "Experience"
+
+2026-05-05
 
 ![](sonhador-trindade-Tz3_ZCe_je0-unsplash.jpg)
 
