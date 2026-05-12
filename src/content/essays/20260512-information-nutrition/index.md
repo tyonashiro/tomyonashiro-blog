@@ -5,6 +5,8 @@ date: 2026-05-12
 
 # Information Nutrition
 
+2026-05-12
+
 ![](gulfer-ergin-LUGuCtvlk1Q-unsplash.jpg)
 
 ## The Invisible Shift in the Digital Atmosphere

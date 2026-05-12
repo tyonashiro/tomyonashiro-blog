@@ -5,6 +5,8 @@ date: 2026-05-07
 
 # Pseudo Knowledge Mysticism
 
+2026-05-07
+
 ![](ferenc-almasi-fhAfLtHToCs-unsplash.jpg)
 
 ## The Markdown Editor That Isn't There

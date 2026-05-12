@@ -5,6 +5,8 @@ date: 2026-05-08
 
 # The Wisdom Gap
 
+2026-05-08
+
 ![](alex-shute-r9azGhUu9sY-unsplash.jpg)
 
 ## The Sunset of the Lone Architect

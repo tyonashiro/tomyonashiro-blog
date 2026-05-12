@@ -5,6 +5,8 @@ date: 2026-05-10
 
 # Readable by Machines, Livable for Humans
 
+2026-05-10
+
 ![](jacob-mcgowin-oABDcEvv3KA-unsplash.jpg)
 
 ## When the Folder Becomes a Question
