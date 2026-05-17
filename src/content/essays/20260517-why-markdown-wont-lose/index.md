@@ -27,10 +27,13 @@ The first axis is whether the format is plain text or a binary container. Plain 
 
 The second axis is whether the format is readable in its source state or whether it requires a rendering step to make sense. Markdown is readable in its source state. A heading written as `# Introduction` is recognizable as a heading without any rendering at all. HTML is plain text, but try reading a real-world HTML file in a text editor and you are swimming in `<div class="container-fluid">` noise. The structure is there, but the signal-to-noise ratio for human reading is poor. Word and PDF need their host applications to mean anything to a human reader.
 
-|                       | Source-readable | Requires rendering |
-| --------------------- | --------------- | ------------------ |
-| **Plain text**        | Markdown        | HTML               |
-| **Binary container**  | (none)          | Word, PDF          |
+Plain text
+- Source-readable: Markdown
+- Requires rendering: HTML
+
+Binary container
+- Source-readable: none
+- Requires rendering: Word, PDF
 
 Plot the two axes against each other and Markdown lands in a cell that nothing else occupies. Plain text, source-readable. HTML is one cell over (plain text, but really wants rendering). Word and PDF are diagonally opposite (binary container, requires rendering). The cell where Markdown lives is genuinely unique, and no amount of improvement in LLM capability changes that. The property is structural.
 
