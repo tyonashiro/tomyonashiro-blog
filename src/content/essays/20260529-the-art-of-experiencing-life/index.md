@@ -12,6 +12,10 @@ tags:
 
 # The Art of Experiencing Life
 
+2026-05-29
+
+![](mohamed-nohassi-odxB5oIG_iA-unsplash.jpg)
+
 ## The Friends We Borrow
 
 Recently, I came across an [article](https://artfulparent.com/j-psychology-says-people-who-reach-their-60s-without-close-friends-arent-socially-deficient-or-cold-they-were-often-the-ones-who-carried-the-emotional-weight-in-every-friendship-for-decades-and-quietl/) discussing people who reach their sixties with very few close friends. The article challenged a common assumption. Rather than portraying these individuals as socially deficient or emotionally distant, it suggested that many of them had spent decades carrying the emotional weight of relationships. They were often the planners, the listeners, the organizers, and the people who kept connections alive. What appeared to be loneliness in old age might actually be the result of a lifetime of giving.
