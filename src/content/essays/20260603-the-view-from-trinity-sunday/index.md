@@ -2,7 +2,9 @@
 title: "The View from Trinity Sunday"
 date: 2026-06-03
 ---
+
 # The View from Trinity Sunday
+
 2026-06-03
 
 ![](saint-john-s-seminary-5PIuKC3cwSs-unsplash.jpg)
