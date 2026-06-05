@@ -1,6 +1,6 @@
 ---
-title: "The View from Trinity Sunday"
-date: 2026-06-03
+title: "The Visible Machine"
+date: 2026-06-05
 ---
 
 # The Visible Machine
