@@ -1,11 +1,11 @@
 ---
 title: "The Visible Machine"
-date: 2026-06-05
+date: 2026-06-08
 ---
 
 # Knowing Is Not Becoming
 
-2026-06-05
+2026-06-08
 
 ![](detait-A1_rJmm6hz8-unsplash.jpg)
 
