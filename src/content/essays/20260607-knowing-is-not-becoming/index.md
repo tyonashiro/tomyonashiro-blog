@@ -1,5 +1,5 @@
 ---
-title: "The Visible Machine"
+title: "Knowing Is Not Becoming"
 date: 2026-06-08
 ---
 
