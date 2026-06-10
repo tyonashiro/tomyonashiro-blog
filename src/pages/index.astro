@@ -4,6 +4,17 @@ import Layout from '../layouts/Layout.astro';
 
 const essays = await getCollection('essays');
 essays.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+const essaysByMonth = new Map<string, typeof essays>();
+
+for (const essay of essays) {
+  const month = essay.id.split('/')[0];
+  const monthEssays = essaysByMonth.get(month) ?? [];
+  monthEssays.push(essay);
+  essaysByMonth.set(month, monthEssays);
+}
+
+const months = [...essaysByMonth.keys()].sort().reverse();
 ---
 
 <Layout title="Home | Tom's Lab">
@@ -18,11 +29,19 @@ essays.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
   <section class="essay-list">
     <h2>Essays</h2>
 
-    {essays.map((essay) => (
-      <a class="essay-card" href={`/essays/${essay.id}`}>
-        <span class="essay-date">{essay.data.date.toISOString().slice(0, 10)}</span>
-        <span class="essay-title">{essay.data.title}</span>
-      </a>
+    {months.map((month) => (
+      <section class="month-block">
+        <a class="month-link" href={`/essays/${month}`}>{month}</a>
+
+        <div class="month-essays">
+          {essaysByMonth.get(month)?.map((essay) => (
+            <a class="essay-card" href={`/essays/${essay.id}`}>
+              <span class="essay-date">{essay.data.date.toISOString().slice(0, 10)}</span>
+              <span class="essay-title">{essay.data.title}</span>
+            </a>
+          ))}
+        </div>
+      </section>
     ))}
   </section>
 </Layout>

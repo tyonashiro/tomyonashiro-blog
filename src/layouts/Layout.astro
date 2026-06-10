@@ -125,6 +125,28 @@ const { title = "Tom’s Lab" } = Astro.props;
     padding-top: 28px;
   }
 
+  .month-block {
+    padding: 30px 0 12px;
+    border-top: 1px solid var(--line);
+  }
+
+  .month-block:first-of-type {
+    border-top: none;
+  }
+
+  .month-link {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 1.45rem;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    font-weight: 600;
+  }
+
+  .month-essays {
+    margin-left: 24px;
+  }
+
   .essay-card,
   .essay-card:link,
   .essay-card:visited,
