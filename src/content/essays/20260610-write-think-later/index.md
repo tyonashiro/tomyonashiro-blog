@@ -5,7 +5,7 @@ date: 2026-06-10
 # Write, Think Later
 2026-06-10
 
-![](retrosupply-jLwVAUtLOAQ-unsplash.jpg)
+![](./retrosupply-jLwVAUtLOAQ-unsplash.jpg)
 
 ## The Line That Stayed
 
