@@ -130,20 +130,48 @@ const { title = "Tom’s Lab" } = Astro.props;
     border-top: 1px solid var(--line);
   }
 
+  .month-block:not([open]) {
+    padding-bottom: 30px;
+  }
+
   .month-block:first-of-type {
     border-top: none;
   }
 
-  .month-link {
-    display: inline-block;
-    margin-bottom: 10px;
+  .month-summary {
+    cursor: pointer;
+    list-style-position: outside;
+  }
+
+  .month-summary::marker {
+    color: var(--muted);
+    font-size: 1rem;
+  }
+
+  .month-summary-content {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 12px;
+    padding-left: 4px;
+  }
+
+  .month-title {
     font-size: 1.45rem;
     line-height: 1.2;
     letter-spacing: -0.03em;
     font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .month-count {
+    color: var(--muted);
+    font-size: 0.95rem;
+    white-space: nowrap;
   }
 
   .month-essays {
+    padding-top: 10px;
     margin-left: 24px;
   }
 
