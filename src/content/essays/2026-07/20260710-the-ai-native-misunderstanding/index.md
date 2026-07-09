@@ -7,7 +7,7 @@ date: 2026-07-10
 
 2026-07-10
 
-![](charles-forerunner-3fPXt37X6UQ-unsplash.jpg)
+![People standing inside a city building](charles-forerunner-3fPXt37X6UQ-unsplash.jpg)
 
 ## The Moment of Confusion
 
