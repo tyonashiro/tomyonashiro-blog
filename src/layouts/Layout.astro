@@ -219,9 +219,15 @@ const { title = "Tom’s Lab" } = Astro.props;
   }
 
   article img {
+    display: block;
+    width: 100%;
     max-width: 100%;
     height: auto;
     border-radius: 4px;
+  }
+
+  article p:has(> img:only-child) {
+    margin: 32px 0 56px;
   }
 
   article pre {
