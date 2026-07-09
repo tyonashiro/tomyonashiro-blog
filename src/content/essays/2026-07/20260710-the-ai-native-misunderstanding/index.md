@@ -7,7 +7,7 @@ date: 2026-07-10
 
 2026-07-10
 
-![People looking out over a city from inside a high-rise building](/essays/2026-07/20260710-the-ai-native-misunderstanding/charles-forerunner-3fPXt37X6UQ-unsplash.jpg)
+![](charles-forerunner-3fPXt37X6UQ-unsplash.jpg)
 
 ## The Moment of Confusion
 
