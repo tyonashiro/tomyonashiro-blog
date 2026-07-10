@@ -1,5 +1,5 @@
 ---
-title: "The AI-Native Misunderstanding"
+title: "Clear Thought Before Rich Format"
 date: 2026-07-11
 ---
 
