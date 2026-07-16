@@ -1,13 +1,13 @@
 ---
 title: "The Canon Principle"
-date: 2026-07-16
+date: 2026-07-17
 ---
 
 # The Canon Principle
 
 Writing, Meaning, and the Shape of a Life
 
-2026-07-16
+2026-07-17
 
 ![](wedding.JPG)
 
