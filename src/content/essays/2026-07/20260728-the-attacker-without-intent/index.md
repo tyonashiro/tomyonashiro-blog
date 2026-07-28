@@ -1,3 +1,9 @@
+---
+title: "The Attacker Without Intent"
+date: 2026-07-28
+---
+
+
 # The Attacker Without Intent
 
 2026-07-28
