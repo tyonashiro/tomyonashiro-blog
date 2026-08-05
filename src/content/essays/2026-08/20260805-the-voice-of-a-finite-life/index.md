@@ -1,6 +1,6 @@
 ---
 title: "The Voice of a Finite Life"
-date: 2026-08-02
+date: 2026-08-05
 ---
 
 # The Voice of a Finite Life
