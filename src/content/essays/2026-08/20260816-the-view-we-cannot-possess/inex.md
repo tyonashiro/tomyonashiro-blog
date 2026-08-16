@@ -7,7 +7,7 @@ date: 2026-08-16
 
 2026-08-16
 
-![](../../../../../../Documents/my-pkm/projects/essays/20260816-the-view-we-cannot-possess/john-schaidler-9V3Q2W_mRLE-unsplash.jpg)
+![](john-schaidler-9V3Q2W_mRLE-unsplash.jpg)
 
 ## The World Seen from Within
 
